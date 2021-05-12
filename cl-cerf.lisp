@@ -7,8 +7,8 @@
              (float imag 1d0))))
 
 (defun complex->plist (z)
-  (list :real (realpart z)
-        :imag (imagpart z)))
+  (list :real (float (realpart z) 1d0)
+        :imag (float (imagpart z) 1d0)))
 
 ;; Faddeeva's scaled complex error function
 (defgeneric faddeeva-w (z)
