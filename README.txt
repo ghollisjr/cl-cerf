@@ -25,7 +25,7 @@ Examples:
 (cl-cerf:faddeeva-w 1)
 ==> #C(0.36787944117144233d0 0.6071577058413937d0)
 
-(cl-cerf:faddeeva-w #(c 0 1))
+(cl-cerf:faddeeva-w #c(0 1))
 ==> #C(0.427583576155807d0 0.0d0)
 
 (cl-cerf:erf #c(1 2))
